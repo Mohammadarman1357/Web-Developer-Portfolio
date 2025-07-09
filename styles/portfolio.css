@@ -52,6 +52,17 @@
     background-position: top left, bottom right;
 }
 
+.btn-contact {
+    background-color: white;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 35px;
+    border-radius: 5px ;
+    border: 1px solid #FD6E0A;
+    margin-left: 10px;
+}
+
 /* nav styles */
 nav {
     display: flex;
@@ -141,6 +152,7 @@ main section {
 .skills-container {
     display: flex;
     gap: 24px;
+    margin-top: 50px;
 }
 
 .skill {
@@ -217,6 +229,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     background-color: white;
     color: #757575;
     display: block;
-    padding: 10px 20px;
+    padding: 10px 30px;
     margin-bottom: 24px;
 }
